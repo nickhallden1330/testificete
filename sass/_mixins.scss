@@ -1,0 +1,5 @@
+@mixin container ($max-width,$min-width) {
+    @media only screen and (max-width:$max-width) and (min-width:$min-width) {
+        @content
+    }
+}
